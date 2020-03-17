@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		0CB1A9E42420CB9400BE8669 /* webServices.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1A9E22420CB9400BE8669 /* webServices.xcdatamodeld */; };
 		0CB1A9E62420CB9D00BE8669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1A9E52420CB9D00BE8669 /* Assets.xcassets */; };
 		0CB1A9E92420CB9D00BE8669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB1A9E72420CB9D00BE8669 /* LaunchScreen.storyboard */; };
+		0CB1A9F12420D03C00BE8669 /* dataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB1A9F02420D03C00BE8669 /* dataTableViewCell.swift */; };
 		B5E20648BAC38FD21AC6CEA2 /* Pods_webServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DBB5E06BC0978BD1B52E77 /* Pods_webServices.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		0CB1A9E52420CB9D00BE8669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CB1A9E82420CB9D00BE8669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CB1A9EA2420CB9D00BE8669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CB1A9F02420D03C00BE8669 /* dataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataTableViewCell.swift; sourceTree = "<group>"; };
 		3FBE11B31EE2E1EB8D42C690 /* Pods-webServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webServices.release.xcconfig"; path = "Target Support Files/Pods-webServices/Pods-webServices.release.xcconfig"; sourceTree = "<group>"; };
 		67DBB5E06BC0978BD1B52E77 /* Pods_webServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_webServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40A306CCD3E8E87AFFBBFAF /* Pods-webServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webServices.debug.xcconfig"; path = "Target Support Files/Pods-webServices/Pods-webServices.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				0CB1A9D92420CB9400BE8669 /* AppDelegate.swift */,
 				0CB1A9DB2420CB9400BE8669 /* SceneDelegate.swift */,
 				0CB1A9DD2420CB9400BE8669 /* ViewController.swift */,
+				0CB1A9F02420D03C00BE8669 /* dataTableViewCell.swift */,
 				0CB1A9DF2420CB9400BE8669 /* Main.storyboard */,
 				0CB1A9E52420CB9D00BE8669 /* Assets.xcassets */,
 				0CB1A9E72420CB9D00BE8669 /* LaunchScreen.storyboard */,
@@ -83,7 +86,6 @@
 				F40A306CCD3E8E87AFFBBFAF /* Pods-webServices.debug.xcconfig */,
 				3FBE11B31EE2E1EB8D42C690 /* Pods-webServices.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,6 +216,7 @@
 				0CB1A9DA2420CB9400BE8669 /* AppDelegate.swift in Sources */,
 				0CB1A9E42420CB9400BE8669 /* webServices.xcdatamodeld in Sources */,
 				0CB1A9DC2420CB9400BE8669 /* SceneDelegate.swift in Sources */,
+				0CB1A9F12420D03C00BE8669 /* dataTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
