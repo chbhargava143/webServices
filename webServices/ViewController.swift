@@ -58,5 +58,23 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
         }
         return cell
        }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let DVC = storyboard.instantiateViewController(identifier: "detailViewController") as! detailViewController
+        let dataA = dataArray[indexPath.row]
+        if let id = dataA["id"] as? Int{
+            DVC.id = "\(id)"
+        }
+        if let usersID = dataA["userId"] as? Int{
+                   DVC.userId = "\(usersID)"
+               }
+        if let title = dataA["title"] as? String{
+                   DVC.tittle = title
+               }
+        if let body = dataA["body"] as? String{
+                   DVC.subtitle = body
+               }
+        self.navigationController?.pushViewController(DVC, animated: true)
+    }
 }
 
